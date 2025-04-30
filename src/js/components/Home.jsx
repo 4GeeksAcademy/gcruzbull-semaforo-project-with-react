@@ -1,15 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import Semaforo from "./Semaforo";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Autobotton from "./Autobutton";
 
 //create your first component
 const Home = () => {
+
+	const [color, setColor] = useState("")
+
 	return (
 		<>
-			<div>
-				<Semaforo />
+			<div className="d-flex flex-column align-items-center">
+				<Semaforo color={color} setColor={setColor} />
+				<Autobotton color={color} setColor={setColor} />
 			</div>
 		</>
 	);

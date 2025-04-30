@@ -9,3 +9,78 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traficlight {
+    background-color: black;
+    border-radius: 8px;
+    width: 160px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.greenlight {
+    background-color: green;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.yellowlight {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.redlight {
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.red-glow {
+    -webkit-box-shadow:0px 0px 105px 45px rgba(255,0,0,0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(255,0,0,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(255,0,0,0.9);
+}
+
+.green-glow {
+    -webkit-box-shadow:0px 0px 105px 45px rgba(0,128,0,0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(0,128,0,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(0,128,0,0.9);
+}
+
+.yellow-glow {
+    -webkit-box-shadow:0px 0px 105px 45px rgba(255,255,0,0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(255,255,0,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(255,255,0,0.9);
+}
+
+.palito {
+    background-color: black;
+    /* border-radius: 8px; */
+    width: 20px;
+    height: 80px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.auto {
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    width: 180px;
+    height: auto;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 4px;
+}
